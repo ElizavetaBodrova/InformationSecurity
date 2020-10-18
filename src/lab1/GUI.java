@@ -4,13 +4,13 @@ import javax.swing.*;
 import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
-import java.util.Scanner;
+
 
 public class GUI extends JFrame {
     JButton b1, b2,b3;
     JLabel l1, l2, l3, l4;
     JTextField t1, t2;
-    String a, b;
+    String a;
     eHandler handler = new eHandler();
 
 
@@ -77,7 +77,7 @@ public class GUI extends JFrame {
 
     }
 }
-class main {
+class Main {
 
     public static void main(String[] args) {
         GUI r = new GUI("Задание №1");
